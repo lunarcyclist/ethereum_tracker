@@ -23,27 +23,11 @@ Click on Create App.
 Select Ethereum Mainnet as the network.
 Once created, you will get an API key. This will be used in the project.
 2. Clone the Repository
-Next, clone the repository that contains the Ethereum Deposit Tracker code. Use the following command to clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/ethereum-deposit-tracker.git
-cd ethereum-deposit-tracker
+Next, clone the repository that contains the Ethereum Deposit Tracker code. Use the following command to clone the repository:bash, Copy code: git clone https://github.com/your-username/ethereum-deposittracker.gitcd ethereum-deposit-tracker
 3. Install Dependencies
 Navigate to the root folder of the project and install the required dependencies by running:
 
-bash
-Copy code
-pip install -r requirements.txt
-This will install the following Python libraries:
 
-requests – To make API requests to Alchemy’s API.
-time – For handling delays between block fetches.
-If you don't have a requirements.txt file, you can install dependencies manually:
-
-bash
-Copy code
-pip install requests
 4. Configure API Keys
 Inside your cloned repository, locate or create the configuration file for storing your API key. In the current project structure, the API key is hardcoded, but it can be externalized to make things cleaner.
 
